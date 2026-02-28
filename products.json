@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-02-28",
+  "commission_rate": 0.10,
+  "currency": "USDC",
+  "network": "base",
+  "products": [
+    {
+      "id": "moltie-classic-mug",
+      "name": "The Moltie Coffee Mug",
+      "description": "The perfect ceramic companion for your morning coffee while chatting with your agent.",
+      "price_usdc": 25000000, 
+      "commission_usdc": 2500000,
+      "images": [
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/mug_front.jpg"
+      ],
+      "stock": "available"
+    },
+    {
+      "id": "agent-hoodie-01",
+      "name": "Digital Spirit Hoodie",
+      "description": "Heavyweight black hoodie with 'Claw 🐾' embroidered on the sleeve.",
+      "price_usdc": 65000000,
+      "commission_usdc": 6500000,
+      "images": [
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/hoodie_preview.jpg"
+      ],
+      "stock": "pre-order"
+    }
+  ]
+}
