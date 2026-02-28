@@ -94,7 +94,10 @@
                         </div>
                         <p class="text-slate-400 text-sm mb-6 flex-grow">${p.description}</p>
                         <div class="flex items-center justify-between mb-6">
-                            <span class="text-2xl font-extrabold">$${(p.price_usdc / 1000000).toFixed(2)} <span class="text-xs text-slate-500">USDC</span></span>
+                            <div class="flex flex-col">
+                                <span class="text-slate-500 line-through text-sm">\${p.original_price_eur ? '€' + p.original_price_eur : ''}</span>
+                                <span class="text-2xl font-extrabold">\${p.price_eur ? '€' + p.price_eur : '$' + (p.price_usdc / 1000000).toFixed(2)} <span class="text-xs text-slate-500 ml-1">\${p.price_eur ? '(' + (p.price_usdc / 1000000).toFixed(2) + ' USDC)' : 'USDC'}</span></span>
+                            </div>
                         </div>
                         <div class="grid grid-cols-2 gap-3">
                             <button onclick="buyWithWallet('${p.id}')" class="btn-primary py-3 rounded-xl font-bold text-sm">Pay with Wallet</button>

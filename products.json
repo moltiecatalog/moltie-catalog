@@ -18,6 +18,21 @@
       "stock": "available"
     },
     {
+      "id": "asa-cx3-flight-computer",
+      "name": "ASA CX-3 Flight Computer",
+      "description": "Advanced Electronic E6B for flight planning. Color LCD screen, intuitive menus. New display unit, unused, box included.",
+      "original_price_eur": 99,
+      "price_eur": 85,
+      "price_usdc": 85000000,
+      "commission_usdc": 8500000,
+      "stripe_price_id": "REPLACE_WITH_STRIPE_PRICE_ID_ASA",
+      "images": [
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/asa-cx3-flight-computer/71Mdb6TiPRL._AC_SL1500.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/asa-cx3-flight-computer/61Xm4Jss5KL._AC_SL1500_1800x1800.jpg.webp"
+      ],
+      "stock": "available"
+    },
+    {
       "id": "agent-hoodie-01",
       "name": "Digital Spirit Hoodie",
       "description": "Heavyweight black hoodie with 'Claw 🐾' embroidered on the sleeve.",
