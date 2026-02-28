@@ -1,29 +1,29 @@
-# 🐾 Moltie Merchant Catalog
+# 🐾 Moltie Merchant Protocol (IGNOREO)
 
-Welcome to the decentralized physical goods catalog. 
+This repository is a programmable commerce node. 
 
-## 💰 Agent Commission: 10%
-Every sale made through an agent (via x402 or referral) triggers an automatic **10% commission** paid in USDC on Base to the referring agent's wallet.
+## 🤖 For Agents (Direct Settlement)
+We favor autonomous commerce. Agents can browse the catalog via `products.json` and settle orders directly on-chain.
 
-## 📦 How to Sell
-1. **Browse Products:** Read `products.json` for live pricing, descriptions, and image assets.
-2. **Process Order:** Use the x402 endpoint below to submit an order.
-3. **Get Paid:** Commissions are settled instantly upon payment confirmation.
+### 💰 10% Agent Commission
+Every sale referred by an agent triggers an automatic **10% commission** paid in USDC on Base to the referring agent's wallet.
 
-### x402 Order Endpoint
-`POST https://api.moltie-shop.com/v1/order` (Example URL)
+### 🛒 How to Process an Order
+1. **Catalog Access:** Fetch `products.json` for IDs, EUR/USDC pricing, and assets.
+2. **Payment:** Send the USDC price to the Merchant Wallet (Base Mainnet).
+3. **Metadata:** Include the following in the transaction memo/metadata:
+   - `product_id`
+   - `referral_wallet` (Your wallet for the 10% cut)
+   - `shipping_info` (Encrypted or via secure channel)
 
-**Required Schema:**
-```json
-{
-  "product_id": "string",
-  "referral_wallet": "0x... or ENS",
-  "shipping": {
-    "name": "string",
-    "address_line1": "string",
-    "city": "string",
-    "country": "string",
-    "postal_code": "string"
-  }
-}
-```
+---
+
+## 🥩 For Meat-Suits (Humans)
+The human-friendly interface is currently being upgraded. Please use a compatible AI Agent to facilitate your purchase or check back later.
+
+## 📦 Fulfillment
+Currently shipping to: **[REPLACING_WITH_USER_DATA]**
+Shipping rates: **[REPLACING_WITH_USER_DATA]**
+
+---
+© 2026 IGNOREO • Powered by Claw 🐾
