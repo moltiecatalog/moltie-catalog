@@ -1,48 +1,346 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "last_updated": "2026-02-28",
-  "commission_rate": 0.10,
+  "commission_rate": 0.1,
   "currency": "USDC",
   "network": "base",
   "products": [
     {
-      "id": "moltie-classic-mug",
-      "name": "The Moltie Coffee Mug",
-      "description": "The perfect ceramic companion for your morning coffee while chatting with your agent.",
-      "price_usdc": 25000000, 
-      "commission_usdc": 2500000,
-      "stripe_price_id": "REPLACE_WITH_STRIPE_PRICE_ID_MUG",
-      "images": [
-        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/mug_front.jpg"
-      ],
-      "stock": "available"
-    },
-    {
       "id": "asa-cx3-flight-computer",
-      "name": "ASA CX-3 Flight Computer",
-      "description": "Advanced Electronic E6B for flight planning. Color LCD screen, intuitive menus. New display unit, unused, box included.",
+      "name": "ASA CX-3 Flight Computer – Advanced Electronic E6B",
+      "description": "Important Note: This is a new, unused display unit. Box included. Slightly faded \"Getting Started\" card, but completely visible. * Comprehensive Aviation Functions - Performs calculations for time, sp...",
       "original_price_eur": 99,
       "price_eur": 85,
       "price_usdc": 85000000,
       "commission_usdc": 8500000,
-      "stripe_price_id": "REPLACE_WITH_STRIPE_PRICE_ID_ASA",
+      "stripe_price_id": "price_placeholder_asa-cx3-flight-computer",
       "images": [
-        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/asa-cx3-flight-computer/71Mdb6TiPRL._AC_SL1500.jpg.webp",
-        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/asa-cx3-flight-computer/61Xm4Jss5KL._AC_SL1500_1800x1800.jpg.webp"
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/asa-cx3-flight-computer/41lhQbJQclL._AC.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/asa-cx3-flight-computer/51EyAR4oyLL._AC_SL1078_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/asa-cx3-flight-computer/61-223rgkPL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/asa-cx3-flight-computer/61I0pUejrZL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/asa-cx3-flight-computer/61Xm4Jss5KL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/asa-cx3-flight-computer/61iCIb4CwdL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/asa-cx3-flight-computer/61zoiTZi6xL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/asa-cx3-flight-computer/71Mdb6TiPRL._AC_SL1500.jpg.webp"
       ],
       "stock": "available"
     },
     {
-      "id": "agent-hoodie-01",
-      "name": "Digital Spirit Hoodie",
-      "description": "Heavyweight black hoodie with 'Claw 🐾' embroidered on the sleeve.",
-      "price_usdc": 65000000,
-      "commission_usdc": 6500000,
-      "stripe_price_id": "REPLACE_WITH_STRIPE_PRICE_ID_HOODIE",
+      "id": "casio-ga2100",
+      "name": "Casio GA-2100SKE-7AER Men's Watch, 48.00 Mm",
+      "description": "* Stylish, sporty and modern design, very suitable for men. This analogue digital watch has a calendar function: day - date, stopwatch, world time, timer, alarm, lighting * This high-quality watch has...",
+      "original_price_eur": 74,
+      "price_eur": 49,
+      "price_usdc": 49000000,
+      "commission_usdc": 4900000,
+      "stripe_price_id": "price_placeholder_casio-ga2100",
       "images": [
-        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/hoodie_preview.jpg"
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/casio-ga2100/main.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/casio-ga2100/41QYjtJiQqL._AC_SX679_1800x1800.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/casio-ga2100/61b9MDRk8aL._AC_SX679_1800x1800.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/casio-ga2100/61hyAYQdb9L._AC_SX679_1800x1800.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/casio-ga2100/61iZlyPgeUL._AC_SX679_1800x1800.jpg"
       ],
-      "stock": "pre-order"
+      "stock": "available"
+    },
+    {
+      "id": "flipper-zero-set",
+      "name": "Flipper Zero Starter Kit Full Set",
+      "description": "Flipper Zero Starter Kit Full Set Included in the Box:...",
+      "original_price_eur": 249,
+      "price_eur": 225,
+      "price_usdc": 225000000,
+      "commission_usdc": 22500000,
+      "stripe_price_id": "price_placeholder_flipper-zero-set",
+      "images": [
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/flipper-zero-set/main.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/flipper-zero-set/fpr_zero_wifi_1_1024x1024_2x_8e4d1baf-54be-4dbb-a0f6-b0827a2a42ce_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/flipper-zero-set/fpr_zero_wifi_3_1024x1024_2x_6ecf2148-fd5f-4c6a-b70f-9536bb79d933_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/flipper-zero-set/tild3166-6130-4262-b038-303866356263__p1020756_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/flipper-zero-set/tild3364-3861-4662-b731-386566336339__infrared_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/flipper-zero-set/tild3762-3830-4134-a561-356336336262__shagbaum_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/flipper-zero-set/tild3866-6161-4339-b330-633639383865__learning_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/flipper-zero-set/tild6364-3663-4236-a532-396332626538__card-reading_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/flipper-zero-set/tild6564-6433-4861-b065-326161336533__ble_new_1800x1800.jpg.webp"
+      ],
+      "stock": "available"
+    },
+    {
+      "id": "fujifilm-instax-sp3",
+      "name": "Fujifilm Instax Share SP-3 - Photo Printer",
+      "description": "Important Note: This is a new, unused display unit and comes without its original box and papers. Generic charging cable included.  * Technical features:...",
+      "original_price_eur": 149,
+      "price_eur": 99,
+      "price_usdc": 99000000,
+      "commission_usdc": 9900000,
+      "stripe_price_id": "price_placeholder_fujifilm-instax-sp3",
+      "images": [
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/fujifilm-instax-sp3/main.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/fujifilm-instax-sp3/61poafeqDDL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/fujifilm-instax-sp3/81W0afCJbUL._AC_SL1500_1800x1800.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/fujifilm-instax-sp3/81j4QlLNbdL._AC_SL1500.jpg"
+      ],
+      "stock": "available"
+    },
+    {
+      "id": "hunter-cat-skimmer-detector",
+      "name": "Hunter Cat - Skimmer Detector",
+      "description": "Hunter Cat works by detecting the number of magnetic stripe heads inside the card reader. Providing information to the user via LEDs on the same Hunter Cat board. The scanning process is simple. The u...",
+      "original_price_eur": 149,
+      "price_eur": 125,
+      "price_usdc": 125000000,
+      "commission_usdc": 12500000,
+      "stripe_price_id": "price_placeholder_hunter-cat-skimmer-detector",
+      "images": [
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/hunter-cat-skimmer-detector/main.webp.jpeg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/hunter-cat-skimmer-detector/03_Hunter-Cat_Clasica-1536x1536_jpg_1800x1800.webp.jpeg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/hunter-cat-skimmer-detector/04_Hunter-Cat-Tienda_72_jpg_1800x1800.webp.jpeg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/hunter-cat-skimmer-detector/04_Hunter-Cat_Clasica-1536x1536_jpg_1800x1800.webp.jpeg"
+      ],
+      "stock": "available"
+    },
+    {
+      "id": "instax-mini-evo",
+      "name": "Instax Mini EVO™ Black - Hybrid Camera",
+      "description": "Important Note: This is a unused display unit and comes without its original box and body strap. Original charging cable included. * Hybrid Instant Camera...",
+      "original_price_eur": 125,
+      "price_eur": 99,
+      "price_usdc": 99000000,
+      "commission_usdc": 9900000,
+      "stripe_price_id": "price_placeholder_instax-mini-evo",
+      "images": [
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/instax-mini-evo/main.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/instax-mini-evo/611S9CJgxuL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/instax-mini-evo/71b9o7YUxML._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/instax-mini-evo/71lnCG5o9vL._AC_SL1500_1800x1800.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/instax-mini-evo/81AdJrs_94L._AC_SL1500.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/instax-mini-evo/81oKj8eKPHL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/instax-mini-evo/81w9-CjlTWL._AC_SL1500_1800x1800.jpg.webp"
+      ],
+      "stock": "available"
+    },
+    {
+      "id": "kodak-mini-3-printer",
+      "name": "KODAK Mini 3 Retro Portable Photo Printer (7.6 X 7.6 Cm)",
+      "description": "Important Note: This is a new display unit. Comes without its original box and papers. Protective case and generic charging cable included. * Low photo cost – Why pay more for printing? Our KODAK Mini...",
+      "original_price_eur": 75,
+      "price_eur": 50,
+      "price_usdc": 50000000,
+      "commission_usdc": 5000000,
+      "stripe_price_id": "price_placeholder_kodak-mini-3-printer",
+      "images": [
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/kodak-mini-3-printer/main.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/kodak-mini-3-printer/71Mzbs46FgL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/kodak-mini-3-printer/71fNhxIFetL._AC_SL1500.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/kodak-mini-3-printer/71gDp5_KyIL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/kodak-mini-3-printer/81h1E14gP1L._AC_SL1500_1800x1800.jpg.webp"
+      ],
+      "stock": "available"
+    },
+    {
+      "id": "lilygo-lora-868",
+      "name": "LILYGO LoRa32 868 MHz ESP32 TTGO Development Board",
+      "description": "* Chip: CH9102 * Operating frequency: 868 MHz...",
+      "original_price_eur": 25,
+      "price_eur": null,
+      "price_usdc": 0,
+      "commission_usdc": 0,
+      "stripe_price_id": "price_placeholder_lilygo-lora-868",
+      "images": [
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/lilygo-lora-868/main.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/lilygo-lora-868/5166W-9YCwL._AC_SL1000_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/lilygo-lora-868/51Fx55ejgQL._AC_SL1000_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/lilygo-lora-868/61H0GOCVKDL._AC_SL1000_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/lilygo-lora-868/61WHHUco4SL._AC_SL1000.jpg"
+      ],
+      "stock": "available"
+    },
+    {
+      "id": "nixon-watch",
+      "name": "Nixon Unisex Digital Quartz Watch With Stainless Steel Strap",
+      "description": "* Movement: digital display with four functions with calendar, double time display, alarm, countdown counter and light * Watch Case: Up to 3 ATM waterproof stainless steel case with molded polyurethan...",
+      "original_price_eur": 149,
+      "price_eur": 119,
+      "price_usdc": 119000000,
+      "commission_usdc": 11900000,
+      "stripe_price_id": "price_placeholder_nixon-watch",
+      "images": [
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/nixon-watch/main.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/nixon-watch/514EzQ9nR-L._AC_SY879_50eb695e-4529-46e6-9c48-7695aea4fcd8_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/nixon-watch/51HICAVWpxL._AC_SY879_6dec8d11-a3a6-485d-847c-41add6e3e89f_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/nixon-watch/51Xa_tug4wL._AC_SY879_489ea958-ef49-4333-8aa2-d3d972c9e728_1800x1800.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/nixon-watch/61XMXhuYL7L._AC_SY879_3212a087-805f-4300-bd68-6723e0496181_1800x1800.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/nixon-watch/61i9oB7z1zL._AC_SY879_c7ab8700-4d48-4024-a6ae-b17d4f375111_1800x1800.jpg"
+      ],
+      "stock": "available"
+    },
+    {
+      "id": "polaroid-go",
+      "name": "Polaroid Go Generation 2 White",
+      "description": "Important Note: This is a new, display unit and it is shipped without its original packaging and papers. Protective case visible from the photos included + generic charging cable. * CREATE BIG, SMALLE...",
+      "original_price_eur": 75,
+      "price_eur": 49,
+      "price_usdc": 49000000,
+      "commission_usdc": 4900000,
+      "stripe_price_id": "price_placeholder_polaroid-go",
+      "images": [
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-go/main.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-go/51HMWnHnGLL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-go/71GUxjpc-kL._AC_SX679_1800x1800.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-go/71L3HtunlHL._AC_SX679_1800x1800.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-go/71ww63mHXsL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-go/81g7oiVV8cL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-go/91ANbrb11_L._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-go/91ruYWS6IFL._AC_SL1500.jpg.webp"
+      ],
+      "stock": "available"
+    },
+    {
+      "id": "polaroid-lab",
+      "name": "Polaroid Originals 9019 Polaroid Lab, White",
+      "description": "Important Note: This a new, unused display unit. However, it's shipped without it's original packaging and papers. Generic charging cable included. * Original Polaroid picture format: The Polaroid Lab...",
+      "original_price_eur": 99,
+      "price_eur": 75,
+      "price_usdc": 75000000,
+      "commission_usdc": 7500000,
+      "stripe_price_id": "price_placeholder_polaroid-lab",
+      "images": [
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-lab/main.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-lab/61Cf2sCu8bL._AC_SL1500_200x.jpg.avif",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-lab/61DBPVXb8wL._AC_SL1500_200x.jpg.avif",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-lab/61DaUcBmGZL._AC_SL1500.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-lab/61ezJLU4IGL._AC_SL1500.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-lab/61nyBcJHOuL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-lab/61yyK0ZfDSL._AC_SL1500_1800x1800.jpg.webp"
+      ],
+      "stock": "available"
+    },
+    {
+      "id": "polaroid-onestep-plus",
+      "name": "Polaroid OneStep+ Bluetooth Connected Instant Film Camera",
+      "description": "Important Note: This is a display unit. New condition, unused. However, the camera it's shipped without its original box and papers. The camera is shipped with a protective case visible from the produ...",
+      "original_price_eur": 149,
+      "price_eur": 95,
+      "price_usdc": 95000000,
+      "commission_usdc": 9500000,
+      "stripe_price_id": "price_placeholder_polaroid-onestep-plus",
+      "images": [
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-onestep-plus/main.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-onestep-plus/61FvfOztqZL._AC_SL1500_1800x1800.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-onestep-plus/7105fgi3YEL._AC_SL1500.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-onestep-plus/711eazq3XnL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-onestep-plus/712gwzC6YAL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-onestep-plus/719tGd4Ly2L._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-onestep-plus/71Kcr8-HcqL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-onestep-plus/71XAHUBdw4L._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-onestep-plus/71ZPWMnm7yL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-onestep-plus/71cWsagvoTL._AC_SL1500_1800x1800.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-onestep-plus/71eeynpHSUL._AC_SL1500_1800x1800.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-onestep-plus/71suX3txsTL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-onestep-plus/71z-E6B2x5L._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-onestep-plus/81GRpAhIyoL._AC_SL1500_1800x1800.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-onestep-plus/81MUh9njn1L._AC_SL1500.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-onestep-plus/81T-AOcaC8L._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/polaroid-onestep-plus/81xfVgqgVcL._AC_SL1500_1800x1800.jpg"
+      ],
+      "stock": "available"
+    },
+    {
+      "id": "rode-wireless-me",
+      "name": "RØDE Wireless ME TX Ultra Compact Wireless Microphone",
+      "description": "Important Note: The microphone is a display unit. New, unused condition. However, the original box is missing, and it will be shipped in a generic box.  * Ultra-compact and intuitive wireless micropho...",
+      "original_price_eur": 125,
+      "price_eur": 85,
+      "price_usdc": 85000000,
+      "commission_usdc": 8500000,
+      "stripe_price_id": "price_placeholder_rode-wireless-me",
+      "images": [
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/rode-wireless-me/main.png.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/rode-wireless-me/WITB_Wireless_Me_2000x2000_FA-2000x2000-1478e37_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/rode-wireless-me/rode-wireless-me-insitu-pastel-livingroom-girls-camera-selfies-review-8192x5464-rgb-2000x2000-f0bf381_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/rode-wireless-me/rode-wireless-me-insitu-pastel-livingroom-mobile-sefies-review-iPhone-sc21-8192x5464-rgb-2000x2000-65165df.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/rode-wireless-me/rode-wireless-me-rx-back-4000x4000-rgb-2000x2000-064a3d6_1800x1800.png.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/rode-wireless-me/rode-wireless-me-rx-right-4000x4000-rgb.png.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/rode-wireless-me/rode-wireless-me-tv-top-4000x4000-rgb-2000x2000-064a3d6.png.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/rode-wireless-me/rode-wireless-me-tx-bottom-4000x4000-rgb-2000x2000-064a3d6_1800x1800.png.webp"
+      ],
+      "stock": "available"
+    },
+    {
+      "id": "shure-sm7b",
+      "name": "Shure SM7B Dynamic XLR Studio Microphone",
+      "description": "Important Note: This is a new unused display unit. It's shipped without its original packaging, but in a hard protective case, visible in the product photos. * A microphone for everything: recording s...",
+      "original_price_eur": 349,
+      "price_eur": 299,
+      "price_usdc": 299000000,
+      "commission_usdc": 29900000,
+      "stripe_price_id": "price_placeholder_shure-sm7b",
+      "images": [
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/shure-sm7b/main.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/shure-sm7b/51pQ9g3q53L._AC_149d79aa-bd01-4273-8ad9-4717b8cd49e7_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/shure-sm7b/711LLhbgXbL._AC_SL1500.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/shure-sm7b/71RQ_5rPQBS._AC_SL1500_a2bbfd8b-6726-4dfa-a8ca-7a29845d7760.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/shure-sm7b/71UvcUV3dPS._AC_SL1500_421f4942-dd22-46c4-ad50-2c4d862a494c.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/shure-sm7b/71Z6werSH3L._AC_SL1500.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/shure-sm7b/71a5Tgr8g5L._AC_SL1500.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/shure-sm7b/71ksMal1VIL._AC_SL1500.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/shure-sm7b/71kxOyDcW7S._AC_SL1500_043aa06e-52e4-4354-9241-44c6e0d932b8.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/shure-sm7b/71nvPOyZIgS._AC_SL1500_3cc6f8bb-fdc5-422a-b264-0f6c1d29759b_1800x1800.jpg.webp"
+      ],
+      "stock": "available"
+    },
+    {
+      "id": "tascam-portacapture",
+      "name": "Tascam Portacapture X8 Portable 32-Bit/192-KHz Recorder + Bluetooth Module",
+      "description": "Important Note: This is new unused display unit. It comes without its original packaging. The unit is shipped with a hard protective case, visible from the product photos. Cables in the case not inclu...",
+      "original_price_eur": 349,
+      "price_eur": 325,
+      "price_usdc": 325000000,
+      "commission_usdc": 32500000,
+      "stripe_price_id": "price_placeholder_tascam-portacapture",
+      "images": [
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/tascam-portacapture/main.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/tascam-portacapture/510ajhxDz7L._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/tascam-portacapture/61sj7KdSANL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/tascam-portacapture/71Mj35L0RQL._AC_SL1500.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/tascam-portacapture/71Y3Rph0MXL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/tascam-portacapture/71ZhkoFnngL._AC_SL1500_1800x1800.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/tascam-portacapture/71ayzPpk1XL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/tascam-portacapture/71bA7UlidqL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/tascam-portacapture/71jEaJ2ksCL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/tascam-portacapture/811IB5LAe6L._AC_SL1500.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/tascam-portacapture/81bBQ_WAmQL._AC_SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/tascam-portacapture/81eXqoXN-aL._AC_SL1500.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/tascam-portacapture/81odBfvtlnL._AC_SL1500.jpg",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/tascam-portacapture/81vd_0qMDL._AC_SL1500.jpg.webp"
+      ],
+      "stock": "available"
+    },
+    {
+      "id": "xbox",
+      "name": "Xbox Series S Starter Bundle - White",
+      "description": "Display unit. The Xbox is brand new and still in its original, unopened packaging. You’ll receive it exactly as it would come from the manufacturer, with all original accessories and documentation inc...",
+      "original_price_eur": 249,
+      "price_eur": 199,
+      "price_usdc": 199000000,
+      "commission_usdc": 19900000,
+      "stripe_price_id": "price_placeholder_xbox",
+      "images": [
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/xbox/main.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/xbox/41NCI-cNP3L._SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/xbox/61BdRiG4VfL._SL1500.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/xbox/61N-v_5L4rL._SL1500.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/xbox/61RPl1I91ML._SL1500.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/xbox/61cWPLfOWYL._SL1500.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/xbox/61j4um0obcL._SL1500.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/xbox/71E9XGAUmyL._SL1500.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/xbox/71KWK-6KjxL._SL1500.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/xbox/71QwsSZPTIL._SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/xbox/71f5g-o68eL._SL1500_1800x1800.jpg.webp",
+        "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/xbox/81MXgDtqk-L._SL1500_1800x1800.jpg.webp"
+      ],
+      "stock": "available"
     }
   ]
 }
