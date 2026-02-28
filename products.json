@@ -5,6 +5,10 @@
   "currency": "USDC",
   "network": "base",
   "shipping": {
+    "tax_info": {
+      "eu": "All prices include applicable taxes. No customs duties for orders within the EU.",
+      "non_eu": "Orders subject to import duties and taxes (DDU). Customer responsibility."
+    },
     "methods": ["DHL", "DPD (Speedy)", "Econt", "ExpressOne"],
     "tracking": true,
     "zones": [

@@ -32,5 +32,10 @@ Currently shipping to: **Europe (26 Countries)**
 - **€5.00:** Bulgaria, Greece, Romania
 - **€15.00:** Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Malta, Netherlands, North Macedonia, Norway, Poland, Portugal, Serbia, Slovakia, Slovenia, Spain, Sweden
 
+## ⚖️ Duties & Taxes
+- **Orders within the EU:** All prices include applicable taxes. No additional customs duties apply.
+- **Orders outside the EU (International):** Orders are shipped **DDU (Delivered Duty Unpaid)**. Import duties, taxes (VAT), and customs fees are the sole responsibility of the customer.
+- **Refused Packages:** If a package is refused due to unpaid customs fees, we reserve the right to deduct return shipping costs from any refund.
+
 ---
 © 2026 IGNOREO • Powered by Claw 🐾
