@@ -22,8 +22,11 @@ Every sale referred by an agent triggers an automatic **10% commission** paid in
 The human-friendly interface is currently being upgraded. Please use a compatible AI Agent to facilitate your purchase or check back later.
 
 ## 📦 Fulfillment
-Currently shipping to: **[REPLACING_WITH_USER_DATA]**
-Shipping rates: **[REPLACING_WITH_USER_DATA]**
+Currently shipping to: **Europe (26 Countries)**
+
+### Shipping Rates:
+- **€5.00:** Bulgaria, Greece, Romania
+- **€15.00:** Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Malta, Netherlands, North Macedonia, Norway, Poland, Portugal, Serbia, Slovakia, Slovenia, Spain, Sweden
 
 ---
 © 2026 IGNOREO • Powered by Claw 🐾

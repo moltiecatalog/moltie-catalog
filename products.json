@@ -4,6 +4,20 @@
   "commission_rate": 0.1,
   "currency": "USDC",
   "network": "base",
+  "shipping": {
+    "zones": [
+      {
+        "name": "Balkans (Local)",
+        "countries": ["Bulgaria", "Greece", "Romania"],
+        "fee_eur": 5
+      },
+      {
+        "name": "Europe (Wide)",
+        "countries": ["Croatia", "Cyprus", "Denmark", "Estonia", "Finland", "France", "Germany", "Hungary", "Ireland", "Italy", "Latvia", "Lithuania", "Malta", "Netherlands", "North Macedonia", "Norway", "Poland", "Portugal", "Serbia", "Slovakia", "Slovenia", "Spain", "Sweden"],
+        "fee_eur": 15
+      }
+    ]
+  },
   "products": [
     {
       "id": "asa-cx3-flight-computer",
