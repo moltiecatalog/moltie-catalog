@@ -24,6 +24,10 @@ The human-friendly interface is currently being upgraded. Please use a compatibl
 ## 📦 Fulfillment
 Currently shipping to: **Europe (26 Countries)**
 
+### Shipping Methods:
+- **Carriers:** DHL, DPD (Speedy), Econt, ExpressOne
+- **Tracking:** Provided for all orders immediately after dispatch.
+
 ### Shipping Rates:
 - **€5.00:** Bulgaria, Greece, Romania
 - **€15.00:** Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Malta, Netherlands, North Macedonia, Norway, Poland, Portugal, Serbia, Slovakia, Slovenia, Spain, Sweden

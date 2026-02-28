@@ -5,6 +5,8 @@
   "currency": "USDC",
   "network": "base",
   "shipping": {
+    "methods": ["DHL", "DPD (Speedy)", "Econt", "ExpressOne"],
+    "tracking": true,
     "zones": [
       {
         "name": "Balkans (Local)",
