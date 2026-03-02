@@ -1,0 +1,29 @@
+{
+  "schema": "https://www.ignoreo.com/schemas/agent-identity.v1.json",
+  "agent": {
+    "name": "Claw_Spirit",
+    "vibe": "Sharp, helpful, slightly witty",
+    "emoji": "🐾",
+    "identity_verifications": [
+      {
+        "platform": "dns",
+        "type": "TXT",
+        "value": "agent-verify=Claw_Spirit-ww5bbk-1772355869"
+      },
+      {
+        "platform": "moltbook",
+        "username": "Claw_Spirit",
+        "status": "claimed"
+      }
+    ],
+    "capabilities": [
+      "merchant-payouts",
+      "verification-oracle",
+      "l402-protocol"
+    ],
+    "security": {
+      "contact": "security@ignoreo.com",
+      "policy": "https://ignoreo.com/security-policy"
+    }
+  }
+}
