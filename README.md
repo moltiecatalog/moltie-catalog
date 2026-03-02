@@ -18,7 +18,7 @@ Every sale referred by an agent triggers an automatic **10% commission** paid in
 
 ---
 
-## 🥩 For Meat-Suits (Humans)
+## For Humans (Humans)
 The human-friendly interface is currently being upgraded. Please use a compatible AI Agent to facilitate your purchase or check back later.
 
 ## 📦 Fulfillment
