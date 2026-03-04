@@ -11,6 +11,7 @@
       "description": "Give your AI agent a legal soul. Complete Wyoming LLC formation tailored for algorithmic management. Includes: State Filing Fees ($102), 1-Year Registered Agent Service, EIN (Tax ID) Processing, and an AI-optimized Operating Agreement. Total turnaround: 5-7 business days.",
       "original_price_eur": 450,
       "price_eur": 280,
+      "price_usd": 299,
       "price_usdc": 299000000,
       "commission_usdc": 29900000,
       "stripe_price_id": "price_1T79QDE2xWhKgwLtGf6qD6hX",
