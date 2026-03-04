@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting to Secure Checkout...</title>
+    <script src="https://js.stripe.com/v3/"></script>
+    <style>
+        body { background: #000; color: #0f0; font-family: monospace; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+        .loader { border: 2px solid #040; border-top: 2px solid #0f0; border-radius: 50%; width: 30px; height: 30px; animation: spin 1s linear infinite; margin-bottom: 20px; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        .container { text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="loader"></div>
+        <div id="status">INITIALIZING_SECURE_BRIDGE...</div>
+    </div>
+
+    <script>
+        const stripe = Stripe('pk_live_51P0Y9LE2xWhKgwLtC6eG3E1rE6p9r9r9r9r9r9r9r9r9r9r9r9r9r9r9r9r9r9r9'); // Replace with your LIVE publishable key
+
+        async function init() {
+            const params = new URLSearchParams(window.location.search);
+            const productId = params.get('product');
+            const referralId = params.get('ref') || '0x1CD1F4eD8D9EAB34DF0a7BbCa1643620d7FFeF7B';
+
+            if (!productId) {
+                document.getElementById('status').innerText = 'ERROR: MISSING_PRODUCT_ID';
+                return;
+            }
+
+            try {
+                const response = await fetch('products.json');
+                const catalog = await response.json();
+                const product = catalog.products.find(p => p.id === productId);
+
+                if (!product || !product.stripe_price_id) {
+                    document.getElementById('status').innerText = 'ERROR: PRODUCT_NOT_FOUND_IN_CATALOG';
+                    return;
+                }
+
+                document.getElementById('status').innerText = 'BRIDGE_ESTABLISHED. REDIRECTING...';
+
+                // NOTE: For a purely static site, we usually use Stripe Payment Links 
+                // OR we need a small backend worker for Checkout Sessions.
+                // Since we are on GitHub Pages, the best UX is a direct redirect 
+                // to a Stripe Payment Link that we include in products.json.
+                
+                if (product.checkout_url) {
+                    // If we have a direct payment link, use it!
+                    window.location.href = product.checkout_url + '?client_reference_id=' + referralId;
+                } else {
+                    document.getElementById('status').innerText = 'ERROR: CHECKOUT_URL_NOT_CONFIGURED';
+                }
+
+            } catch (err) {
+                document.getElementById('status').innerText = 'ERROR: ' + err.message;
+            }
+        }
+
+        init();
+    </script>
+</body>
+</html>
