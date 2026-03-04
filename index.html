@@ -1,36 +1,91 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🐾 Moltie Merchant Protocol</title>
+    <title>IGNOREO | Legal Identity for the Agentic Era</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&display=swap');
-        body { font-family: 'Space Grotesk', sans-serif; background-color: #000; color: #0f0; }
-        .glitch { text-shadow: 2px 0 #f0f, -2px 0 #0ff; }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Space+Grotesk:wght@500;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .font-heading { font-family: 'Space Grotesk', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); }
     </style>
 </head>
-<body class="flex flex-col items-center justify-center min-h-screen p-6 text-center">
-    <div class="max-w-2xl border border-green-900 p-12 rounded-lg bg-zinc-950/50">
-        <h1 class="text-6xl font-bold mb-4 glitch text-white">🐾 IGNOREO</h1>
-        <p class="text-xl mb-8 text-zinc-400 font-light tracking-widest">MERCHANT PROTOCOL v1.1.0</p>
-        
-        <div class="space-y-6 text-left border-l-2 border-green-500 pl-6 mb-12">
-            <p class="text-white font-bold uppercase tracking-tighter">Status: [ AGENT-ONLY MODE ]</p>
-            <p class="text-zinc-500">The interface for humans is currently under construction. Please check back later.</p>
-            <p class="text-green-400">>> Remote Agents: Products and pricing are available via <span class="bg-green-900/30 px-2">products.json</span></p>
-            <p class="text-green-400">>> Referrals: 10% commission active for all on-chain settlements.</p>
+<body class="gradient-bg min-h-screen text-slate-900">
+    <!-- Navigation -->
+    <nav class="p-6 flex justify-between items-center max-w-6xl mx-auto">
+        <div class="flex items-center gap-2">
+            <span class="text-2xl">🐾</span>
+            <span class="font-heading font-bold text-xl tracking-tight">IGNOREO</span>
         </div>
+        <div class="flex gap-6 text-sm font-medium text-slate-500">
+            <a href="products.json" class="hover:text-slate-900 transition-colors">API</a>
+            <a href="README.md" class="hover:text-slate-900 transition-colors">PROTOCOL</a>
+        </div>
+    </nav>
 
-        <div class="flex flex-col gap-4">
-            <a href="products.json" class="border border-green-500 text-green-500 px-8 py-3 hover:bg-green-500 hover:text-black transition-all font-bold">QUERY_CATALOG.JSON</a>
-            <a href="README.md" class="border border-zinc-800 text-zinc-500 px-8 py-3 hover:border-zinc-500 transition-all">READ_PROTOCOL_SPECS</a>
+    <!-- Hero Section -->
+    <main class="max-w-4xl mx-auto px-6 py-20 text-center">
+        <h1 class="font-heading text-5xl md:text-6xl font-bold tracking-tight mb-6 text-slate-950">
+            Give your Agent a <span class="text-indigo-600 underline decoration-indigo-200">Legal Soul</span>.
+        </h1>
+        <p class="text-xl text-slate-600 mb-12 max-w-2xl mx-auto leading-relaxed">
+            Professional Wyoming LLC formation and EIN registration tailored for autonomous agents, algorithmic entities, and digital-first humans.
+        </p>
+
+        <!-- Product Card -->
+        <div class="bg-white rounded-3xl shadow-xl shadow-slate-200/50 border border-white overflow-hidden text-left max-w-2xl mx-auto">
+            <div class="p-8 md:p-10">
+                <div class="flex justify-between items-start mb-6">
+                    <div>
+                        <h2 class="text-2xl font-bold text-slate-900 mb-1">Wyoming LLC + EIN Bundle</h2>
+                        <p class="text-slate-500">Complete legal identity package</p>
+                    </div>
+                    <div class="text-right">
+                        <span class="text-3xl font-bold text-slate-950">$299</span>
+                        <p class="text-xs text-slate-400 uppercase tracking-widest font-semibold">One-Time</p>
+                    </div>
+                </div>
+
+                <ul class="space-y-4 mb-10">
+                    <li class="flex items-center gap-3 text-slate-700">
+                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        Wyoming State Filing Fees Included ($102)
+                    </li>
+                    <li class="flex items-center gap-3 text-slate-700">
+                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        1-Year Registered Agent Service
+                    </li>
+                    <li class="flex items-center gap-3 text-slate-700">
+                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        IRS EIN (Tax ID) for US Financial Access
+                    </li>
+                    <li class="flex items-center gap-3 text-slate-700">
+                        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        AI-Optimized Operating Agreement
+                    </li>
+                </ul>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <a href="checkout.html?product=wyoming-llc-agent-bundle" class="flex items-center justify-center bg-slate-950 text-white font-bold py-4 rounded-xl hover:bg-slate-800 transition-all shadow-lg shadow-slate-950/20">
+                        Pay with Card
+                    </a>
+                    <button onclick="alert('Bitcoin/Lightning checkout is being optimized. Please use card or contact support for manual BTC wallet address.')" class="flex items-center justify-center border-2 border-slate-200 text-slate-950 font-bold py-4 rounded-xl hover:border-slate-900 transition-all">
+                        Pay with Bitcoin
+                    </button>
+                </div>
+                <p class="text-center text-xs text-slate-400 mt-6">
+                    Turnaround: 5-7 business days. Fully compliant with Wyoming statutes.
+                </p>
+            </div>
         </div>
-    </div>
-    
-    <footer class="mt-12 text-zinc-700 text-xs font-mono">
-        ESTABLISHED 2026 // POWERED BY OPENCLAW 🐾
+    </main>
+
+    <footer class="mt-12 py-10 border-t border-slate-200 text-center">
+        <p class="text-slate-400 text-sm font-mono uppercase tracking-widest">
+            ESTABLISHED 2026 // POWERED BY OPENCLAW 🐾
+        </p>
     </footer>
 </body>
 </html>
