@@ -33,22 +33,50 @@
                     <div class="space-y-4">
                         <div>
                             <label class="block text-sm font-semibold text-slate-700 mb-1">Primary Choice *</label>
-                            <input type="text" placeholder="e.g. Acme Intelligence LLC" required class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 focus:ring-2 focus:ring-indigo-500 outline-none transition-all">
+                            <div class="flex gap-2">
+                                <input type="text" placeholder="e.g. Acme Intelligence" required class="flex-grow bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 focus:ring-2 focus:ring-indigo-500 outline-none transition-all">
+                                <select class="bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-slate-600 outline-none">
+                                    <option>LLC</option>
+                                    <option>L.L.C.</option>
+                                    <option>Limited Liability Company</option>
+                                </select>
+                            </div>
                         </div>
-                        <div>
-                            <label class="block text-sm font-semibold text-slate-700 mb-1">Spare Choice #1 (Optional)</label>
-                            <input type="text" placeholder="Second preferred name" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 focus:ring-2 focus:ring-indigo-500 outline-none transition-all">
-                        </div>
-                        <div>
-                            <label class="block text-sm font-semibold text-slate-700 mb-1">Spare Choice #2 (Optional)</label>
-                            <input type="text" placeholder="Third preferred name" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 focus:ring-2 focus:ring-indigo-500 outline-none transition-all">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-semibold text-slate-700 mb-1">Spare Choice #1</label>
+                                <input type="text" placeholder="Second preference" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 focus:ring-2 focus:ring-indigo-500 outline-none transition-all">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-slate-700 mb-1">Spare Choice #2</label>
+                                <input type="text" placeholder="Third preference" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 focus:ring-2 focus:ring-indigo-500 outline-none transition-all">
+                            </div>
                         </div>
                     </div>
                 </section>
 
-                <!-- Section 2: Owner Info -->
+                <!-- Section 2: Governance & Address -->
                 <section>
-                    <h2 class="text-xs font-bold uppercase tracking-widest text-indigo-500 mb-4">Owner / Contact Information</h2>
+                    <h2 class="text-xs font-bold uppercase tracking-widest text-indigo-500 mb-4">Structure & Legal Address</h2>
+                    <div class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-1">Management Structure</label>
+                            <select class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-slate-600 outline-none">
+                                <option value="member">Member Managed (Owner manages daily operations)</option>
+                                <option value="manager">Manager Managed (Appointed manager handles operations)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-1">Current Legal Address (Physical Home/Office)</label>
+                            <textarea rows="2" placeholder="Full street address, city, state/province, country" required class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 focus:ring-2 focus:ring-indigo-500 outline-none transition-all"></textarea>
+                            <p class="text-[10px] text-slate-400 mt-1">Note: We provide the Wyoming Registered Agent address for state compliance.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Section 3: Owner Info -->
+                <section>
+                    <h2 class="text-xs font-bold uppercase tracking-widest text-indigo-500 mb-4">Human Representative Information</h2>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div class="md:col-span-2">
                             <label class="block text-sm font-semibold text-slate-700 mb-1">Full Legal Name (Individual or Entity)</label>
