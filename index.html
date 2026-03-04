@@ -68,13 +68,18 @@
                     </li>
                 </ul>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <a href="checkout.html?product=wyoming-llc-agent-bundle" class="flex items-center justify-center bg-slate-950 text-white font-bold py-4 rounded-xl hover:bg-slate-800 transition-all shadow-lg shadow-slate-950/20">
-                        Pay with Card
+                <div class="flex flex-col gap-4">
+                    <a href="llc-form.html" class="flex items-center justify-center bg-slate-950 text-white font-bold py-4 rounded-xl hover:bg-slate-800 transition-all shadow-lg shadow-slate-950/20">
+                        Order Service
                     </a>
-                    <button onclick="alert('Bitcoin/Lightning checkout is being optimized. Please use card or contact support for manual BTC wallet address.')" class="flex items-center justify-center border-2 border-slate-200 text-slate-950 font-bold py-4 rounded-xl hover:border-slate-900 transition-all">
-                        Pay with Bitcoin
-                    </button>
+                    <div class="flex items-center justify-center gap-6 pt-2">
+                        <div class="flex items-center gap-2 grayscale opacity-50">
+                            <span class="text-xs font-bold uppercase tracking-widest text-slate-400">Accepted:</span>
+                            <span class="text-sm font-semibold text-slate-600">Card (Stripe)</span>
+                            <span class="text-slate-300">|</span>
+                            <span class="text-sm font-semibold text-slate-600">Bitcoin / Lightning</span>
+                        </div>
+                    </div>
                 </div>
                 <p class="text-center text-xs text-slate-400 mt-6">
                     Turnaround: 5-7 business days. Fully compliant with Wyoming statutes.
