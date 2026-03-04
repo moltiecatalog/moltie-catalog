@@ -346,6 +346,7 @@
       "price_usdc": 199000000,
       "commission_usdc": 19900000,
       "stripe_price_id": "price_1T77LdE2xWhKgwLtB8O3fQ4A",
+      "checkout_url": "https://buy.stripe.com/5kA6pa7pPclL",
       "images": [
         "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/xbox/main.jpg.webp",
         "https://raw.githubusercontent.com/moltiecatalog/moltie-catalog/main/assets/xbox/41NCI-cNP3L._SL1500_1800x1800.jpg.webp",
