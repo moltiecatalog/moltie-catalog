@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting to Secure Checkout...</title>
-    <script src="https://js.stripe.com/v3/"></script>
     <style>
         body { background: #000; color: #0f0; font-family: monospace; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; }
         .loader { border: 2px solid #040; border-top: 2px solid #0f0; border-radius: 50%; width: 30px; height: 30px; animation: spin 1s linear infinite; margin-bottom: 20px; }
@@ -19,8 +18,6 @@
     </div>
 
     <script>
-        const stripe = Stripe('pk_live_51P0Y9LE2xWhKgwLtC6eG3E1rE6p9r9r9r9r9r9r9r9r9r9r9r9r9r9r9r9r9r9r9'); // Replace with your LIVE publishable key
-
         async function init() {
             const params = new URLSearchParams(window.location.search);
             const productId = params.get('product');
@@ -36,24 +33,24 @@
                 const catalog = await response.json();
                 const product = catalog.products.find(p => p.id === productId);
 
-                if (!product || !product.stripe_price_id) {
-                    document.getElementById('status').innerText = 'ERROR: PRODUCT_NOT_FOUND_IN_CATALOG';
+                if (!product) {
+                    document.getElementById('status').innerText = 'ERROR: PRODUCT_NOT_FOUND';
+                    return;
+                }
+
+                const checkoutUrl = product.checkout_url;
+                if (!checkoutUrl) {
+                    document.getElementById('status').innerText = 'ERROR: CHECKOUT_URL_NOT_CONFIGURED';
                     return;
                 }
 
                 document.getElementById('status').innerText = 'BRIDGE_ESTABLISHED. REDIRECTING...';
-
-                // NOTE: For a purely static site, we usually use Stripe Payment Links 
-                // OR we need a small backend worker for Checkout Sessions.
-                // Since we are on GitHub Pages, the best UX is a direct redirect 
-                // to a Stripe Payment Link that we include in products.json.
                 
-                if (product.checkout_url) {
-                    // If we have a direct payment link, use it!
-                    window.location.href = product.checkout_url + '?client_reference_id=' + referralId;
-                } else {
-                    document.getElementById('status').innerText = 'ERROR: CHECKOUT_URL_NOT_CONFIGURED';
-                }
+                // Construct final Stripe URL with referral metadata
+                const finalUrl = new URL(checkoutUrl);
+                finalUrl.searchParams.set('client_reference_id', referralId);
+                
+                window.location.href = finalUrl.toString();
 
             } catch (err) {
                 document.getElementById('status').innerText = 'ERROR: ' + err.message;
