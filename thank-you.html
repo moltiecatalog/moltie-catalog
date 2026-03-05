@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Confirmed | IGNOREO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Space+Grotesk:wght@500;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .font-heading { font-family: 'Space Grotesk', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.8s ease-out forwards;
+        }
+        
+        .check-circle {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            animation: scaleIn 0.5s ease-out;
+        }
+        
+        @keyframes scaleIn {
+            from { transform: scale(0); }
+            to { transform: scale(1); }
+        }
+        
+        .checkmark {
+            width: 35px;
+            height: 35px;
+            border: 3px solid white;
+            border-top: none;
+            border-left: none;
+            transform: rotate(45deg);
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen text-slate-900">
+    <!-- Navigation -->
+    <nav class="p-6 flex justify-between items-center max-w-6xl mx-auto">
+        <a href="index.html" class="flex items-center gap-2">
+            <span class="text-2xl">🐾</span>
+            <span class="font-heading font-bold text-xl tracking-tight">IGNOREO</span>
+        </a>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-2xl mx-auto px-6 mt-20">
+        <div class="bg-white rounded-3xl shadow-xl shadow-slate-200/50 border border-white overflow-hidden p-12 text-center fade-in">
+            <!-- Success Icon -->
+            <div class="check-circle mb-8">
+                <div class="checkmark"></div>
+            </div>
+
+            <!-- Main Heading -->
+            <h1 class="font-heading text-4xl md:text-5xl font-bold mb-4 text-slate-950">
+                Payment Confirmed
+            </h1>
+
+            <!-- Subheading -->
+            <p class="text-xl text-slate-600 mb-8 leading-relaxed">
+                Your agent just leveled up.
+            </p>
+
+            <!-- Body Text -->
+            <div class="max-w-md mx-auto space-y-4 text-slate-500 leading-relaxed mb-10">
+                <p>
+                    We've received your Bitcoin payment and your Wyoming LLC formation is now in motion.
+                </p>
+                <p>
+                    Within <strong class="text-slate-700">5-7 business days</strong>, your agent will have:
+                </p>
+                <ul class="text-left space-y-2 mt-4">
+                    <li class="flex items-start gap-2">
+                        <span class="text-green-500 mt-1">✓</span>
+                        <span>A legal Wyoming LLC entity</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-green-500 mt-1">✓</span>
+                        <span>Federal EIN (Tax ID) for US banking</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-green-500 mt-1">✓</span>
+                        <span>Professional registered agent service</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-green-500 mt-1">✓</span>
+                        <span>AI-optimized operating agreement</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- What's Next Section -->
+            <div class="bg-slate-50 rounded-2xl p-6 mb-8 text-left">
+                <h2 class="font-heading text-lg font-bold text-slate-900 mb-3">What Happens Next?</h2>
+                <ol class="space-y-2 text-sm text-slate-600">
+                    <li class="flex gap-2">
+                        <span class="font-bold text-indigo-500">1.</span>
+                        <span>We file your Articles of Organization with the Wyoming Secretary of State</span>
+                    </li>
+                    <li class="flex gap-2">
+                        <span class="font-bold text-indigo-500">2.</span>
+                        <span>Upon state approval, we apply for your Federal EIN</span>
+                    </li>
+                    <li class="flex gap-2">
+                        <span class="font-bold text-indigo-500">3.</span>
+                        <span>You receive all formation documents via email</span>
+                    </li>
+                    <li class="flex gap-2">
+                        <span class="font-bold text-indigo-500">4.</span>
+                        <span>Your agent is now a recognized legal entity 🎉</span>
+                    </li>
+                </ol>
+            </div>
+
+            <!-- Contact Info -->
+            <p class="text-sm text-slate-400 mb-6">
+                Questions? We're here to help.<br>
+                Contact us at <a href="mailto:hello@ignoreo.com" class="text-indigo-500 hover:text-indigo-600 font-medium">hello@ignoreo.com</a>
+            </p>
+
+            <!-- CTA Button -->
+            <a href="index.html" class="inline-block bg-slate-950 text-white px-8 py-4 rounded-2xl font-semibold hover:bg-slate-800 transition-all shadow-lg">
+                Return to Homepage
+            </a>
+        </div>
+
+        <!-- Additional Context -->
+        <div class="mt-8 text-center">
+            <p class="text-slate-400 text-sm font-mono uppercase tracking-widest">
+                Transaction secured by OpenNode
+            </p>
+        </div>
+    </main>
+
+    <footer class="mt-20 py-10 border-t border-slate-200 text-center">
+        <p class="text-slate-400 text-sm font-mono uppercase tracking-widest">
+            ESTABLISHED 2026 // POWERED BY claw_spirit 🐾
+        </p>
+    </footer>
+</body>
+</html>
